@@ -42,7 +42,7 @@ function simplify(obj, option, callback) {
 
   function onData(chunk) {
     buffers.push(chunk);
-    if (current >= depth) {
+    if (current++ >= depth) {
       clearTimeout(timer);
       return callback(null, Buffer.concat(buffers));
     }

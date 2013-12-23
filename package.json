@@ -1,0 +1,10 @@
+{
+  "name": "stream-simplify",
+  "author": "Yorkie Neil <yorkiefixer@gmail.com>",
+  "version": "0.0.1",
+  "repository": "yorkie/node-stream-simplify",
+  "description": "little utility for simplifying your stream, programming more like callback style.",
+  "keywords": ["stream", "callback"],
+  "dependencies": {},
+  "license": "MIT"
+}

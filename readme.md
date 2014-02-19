@@ -1,7 +1,6 @@
-
 # node-stream-simplify
 
-little utility for simplifying your stream, programming more like callback style.
+Little utility for simplifying your stream, programming more like callback style.
 
 Sometimes, you just wanna send a simple net data to the service, then you provide a callback that receive the data. This module could help you to do then.
 
@@ -13,7 +12,7 @@ $ npm install stream-simplify
 ```
 
 ### Example
-```javascript
+```js
 simplify(fs.createReadStream('./example.txt'), option, function(err, data) {
   // TODO
 })
